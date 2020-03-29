@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "sucrase-node src/index.js",
+    "dev": "nodemon src/index.js",
     "build": "./node_modules/.bin/babel src -d dist",
     "start": "node dist"
   },
@@ -12,6 +12,7 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
+    "nodemon": "^2.0.2",
     "sucrase": "^3.13.0"
   },
   "dependencies": {
